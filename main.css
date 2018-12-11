@@ -1,0 +1,21 @@
+div.bread_crumbs,
+div.bread {
+    border-radius: 0 25px 25px 0;
+}
+
+div.bread_crumbs {
+    height: 50px;
+    width: auto;
+    background: linear-gradient(to bottom, rgb(255, 255, 255) 10%, rgb(221, 195, 140) 50%, rgb(155, 153, 152) 100%);
+    line-height: 50px;
+}
+
+div.bread {
+    box-shadow: 5px 0 5px -4px black,
+        inset -6px 0 5px -5px white;
+    width: 115px;
+    margin-right: 5px;
+    padding-right: 15px;
+    display: inline-block;
+    text-align: center;
+}
